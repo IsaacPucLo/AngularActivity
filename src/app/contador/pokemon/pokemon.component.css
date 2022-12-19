@@ -1,0 +1,28 @@
+.imgPokemon{
+  height: 450px;
+  width: 450px;
+}
+
+.description {
+  height: 400px;
+  width: 400px;
+  text-align: left;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.5em;
+  align-content: center;
+  display: block;
+}
+
+#title {
+  text-decoration: dotted;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 1.25em;
+}
+
+
+div {
+  padding-bottom: .25em;
+}

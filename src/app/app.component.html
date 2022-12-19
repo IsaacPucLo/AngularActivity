@@ -8,15 +8,14 @@
 <div class="row text-center">
   <div class="col">
     <button (click)="incrementar()" class="btn btn-primary">Incrementar</button>
-    <button (click)="decrementar()" class="btn btn-info">Decrementar</button>
+    <button (click)="decrementar()" class="btn btn-primary">Decrementar</button>
   </div>
 </div>
 
 
-<!--
 <hr>
 <div class="row text-center">
   <div class="col">
-     <app-hijo></app-hijo> <!--Escucha el evento y asigna el contador a lo que sea que mande el evento
+    <app-pokemon [idPokemon]="contador"></app-pokemon>
   </div>
-</div> -->
+</div>

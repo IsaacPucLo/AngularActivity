@@ -1,0 +1,25 @@
+<button (click)="search()" class="btn btn-info">Buscar pokemón</button>
+
+
+<br>
+<table id="pokemon-card" align="center" style="display: none; justify-content: center;">
+  <tr>
+    <td class="imgPokemon">
+      <img src="{{urlImage}}" alt="ImagenPokemón">
+    </td>
+    <td class="description">
+      <div id="title">
+        {{name}}
+      </div>
+      <div>
+        Type: {{type}}
+      </div>
+      <div>
+        Abilities:
+        <div id="ulListado"></div>
+    </div>
+
+    </td>
+  </tr>
+</table>
+

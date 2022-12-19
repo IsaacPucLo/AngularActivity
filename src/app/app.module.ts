@@ -11,12 +11,16 @@ import { AppComponent } from './app.component';
 import { HijoComponent } from './contador/hijo/hijo.component';
 import { NietoComponent } from './contador/nieto/nieto.component';
 import { environment } from 'src/environments/environment';
+import { PokemonComponent } from './contador/pokemon/pokemon.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     HijoComponent,
-    NietoComponent
+    NietoComponent,
+    PokemonComponent
   ],
   imports: [
     BrowserModule,
@@ -26,6 +30,8 @@ import { environment } from 'src/environments/environment';
       maxAge: 25, //Retains last 25 states
       logOnly: environment.production, //Restrict extension to ..
     }),
+    HttpClientModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
